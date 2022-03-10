@@ -1,0 +1,12 @@
+C:\Users\Tahir\source\repos\InventoryService\InventoryService.Infrastructure\bin\Debug\netcoreapp3.1\InventoryService.Infrastructure.deps.json
+C:\Users\Tahir\source\repos\InventoryService\InventoryService.Infrastructure\bin\Debug\netcoreapp3.1\InventoryService.Infrastructure.dll
+C:\Users\Tahir\source\repos\InventoryService\InventoryService.Infrastructure\bin\Debug\netcoreapp3.1\InventoryService.Infrastructure.pdb
+C:\Users\Tahir\source\repos\InventoryService\InventoryService.Infrastructure\obj\Debug\netcoreapp3.1\InventoryService.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Tahir\source\repos\InventoryService\InventoryService.Infrastructure\obj\Debug\netcoreapp3.1\InventoryService.Infrastructure.AssemblyInfo.cs
+C:\Users\Tahir\source\repos\InventoryService\InventoryService.Infrastructure\obj\Debug\netcoreapp3.1\InventoryService.Infrastructure.dll
+C:\Users\Tahir\source\repos\InventoryService\InventoryService.Infrastructure\obj\Debug\netcoreapp3.1\InventoryService.Infrastructure.pdb
+C:\Users\Tahir\source\repos\InventoryService\InventoryService.Infrastructure\obj\Debug\netcoreapp3.1\InventoryService.Infrastructure.csprojAssemblyReference.cache
+C:\Users\Tahir\source\repos\InventoryService\InventoryService.Infrastructure\bin\Debug\netcoreapp3.1\InventoryService.Infrastructure.runtimeconfig.json
+C:\Users\Tahir\source\repos\InventoryService\InventoryService.Infrastructure\bin\Debug\netcoreapp3.1\InventoryService.Infrastructure.runtimeconfig.dev.json
+C:\Users\Tahir\source\repos\InventoryService\InventoryService.Infrastructure\obj\Debug\netcoreapp3.1\InventoryService.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Tahir\source\repos\InventoryService\InventoryService.Infrastructure\obj\Debug\netcoreapp3.1\InventoryService.Infrastructure.genruntimeconfig.cache
