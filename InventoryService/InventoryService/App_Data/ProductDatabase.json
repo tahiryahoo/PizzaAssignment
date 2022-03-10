@@ -1,0 +1,347 @@
+{
+  "ProductTypeMaster": [
+    {
+      "Name": "Veg",
+      "Id": 1
+    },
+    {
+      "Name": "Non-Veg",
+      "Id": 2
+    }
+  ],
+  "SizeMaster": [
+    {
+      "Name": "Regular",
+      "Id": 1,
+      "Serves": 1
+    },
+    {
+      "Name": "Medium",
+      "Id": 2,
+      "Serves": 2
+    },
+    {
+      "Name": "Large",
+      "Id": 3,
+      "Serves": 4
+    }
+  ],
+  "ToppingsMaster": [
+    {
+      "Name": "Crip Capsicum",
+      "Id": 1,
+      "ToppingType": 1
+    },
+    {
+      "Name": "Paneer",
+      "Id": 2,
+      "ToppingType": 1
+    },
+    {
+      "Name": "Onion",
+      "Id": 3,
+      "ToppingType": 1
+    },
+    {
+      "Name": "Papperoni Chicken",
+      "Id": 4,
+      "ToppingType": 2
+    },
+    {
+      "Name": "Barbeque Chicken",
+      "Id": 5,
+      "ToppingType": 2
+    },
+    {
+      "Name": "Chicken Tikka",
+      "Id": 6,
+      "ToppingType": 2
+    }
+  ],
+  "CrustMaster": [
+    {
+      "Name": "Cheese Burst",
+      "Id": 1
+    },
+    {
+      "Name": "100 % wheat thin",
+      "Id": 2
+    },
+    {
+      "Name": "New Hand Tossed",
+      "Id": 3
+    }
+  ],
+  "ExtraCheesePrice": [
+    {
+      "Id": 1,
+      "SizeId": 1,
+      "Price": 50
+    },
+    {
+      "Id": 2,
+      "SizeId": 2,
+      "Price": 75
+    },
+    {
+      "Id": 3,
+      "SizeId": 3,
+      "Price": 95
+    }
+  ],
+  "ToppingsPrice": [
+    {
+      "ToppingType": 1,
+      "ToppingId": 1,
+      "Price": 30,
+      "SizeId": 1
+    },
+    {
+      "ToppingType": 1,
+      "ToppingId": 1,
+      "Price": 45,
+      "SizeId": 2
+    },
+    {
+      "ToppingType": 1,
+      "ToppingId": 1,
+      "Price": 60,
+      "SizeId": 3
+    },
+    {
+      "ToppingType": 1,
+      "ToppingId": 2,
+      "Price": 30,
+      "SizeId": 1
+    },
+    {
+      "ToppingType": 1,
+      "ToppingId": 2,
+      "Price": 45,
+      "SizeId": 2
+    },
+    {
+      "ToppingType": 1,
+      "ToppingId": 2,
+      "Price": 60,
+      "SizeId": 3
+    },
+    {
+      "ToppingType": 1,
+      "ToppingId": 3,
+      "Price": 30,
+      "SizeId": 1
+    },
+    {
+      "ToppingType": 1,
+      "ToppingId": 3,
+      "Price": 45,
+      "SizeId": 2
+    },
+    {
+      "ToppingType": 1,
+      "ToppingId": 3,
+      "Price": 60,
+      "SizeId": 3
+    },
+    {
+      "ToppingType": 2,
+      "ToppingId": 4,
+      "Price": 40,
+      "SizeId": 1
+    },
+    {
+      "ToppingType": 2,
+      "ToppingId": 4,
+      "Price": 55,
+      "SizeId": 2
+    },
+    {
+      "ToppingType": 2,
+      "ToppingId": 4,
+      "Price": 100,
+      "SizeId": 3
+    },
+    {
+      "ToppingType": 2,
+      "ToppingId": 5,
+      "Price": 40,
+      "SizeId": 1
+    },
+    {
+      "ToppingType": 2,
+      "ToppingId": 5,
+      "Price": 55,
+      "SizeId": 2
+    },
+    {
+      "ToppingType": 2,
+      "ToppingId": 5,
+      "Price": 100,
+      "SizeId": 3
+    },
+    {
+      "ToppingType": 2,
+      "ToppingId": 6,
+      "Price": 40,
+      "SizeId": 1
+    },
+    {
+      "ToppingType": 2,
+      "ToppingId": 6,
+      "Price": 55,
+      "SizeId": 2
+    },
+    {
+      "ToppingType": 2,
+      "ToppingId": 6,
+      "Price": 100,
+      "SizeId": 3
+    }
+  ],
+  "ProductSubTypeMaster": [
+    {
+      "Id": 1,
+      "Name": "Pizza"
+    },
+    {
+      "Id": 2,
+      "Name": "Beverages"
+    },
+    {
+      "Id": 3,
+      "Name": "Dessert"
+    }
+  ],
+  "ProductMaster": [
+    {
+      "Id": 1,
+      "Name": "Margherita",
+      "Description": "Classic delight with 100% real mozzarella cheese",
+      "IsCustomizable": false,
+      "ProductTypeId": 1,
+      "ProductSubTypeId": 1,
+      "Image": "10-18-2020-0-12-15-16.jpg"
+    },
+    {
+      "Id": 2,
+      "Name": "Chicken Dominator",
+      "Description": "Med Chicken Dominator",
+      "IsCustomizable": true,
+      "ProductTypeId": 2,
+      "ProductSubTypeId": 1,
+      "Image": "10-18-2020-0-16-7-17.jpg"
+    },
+    {
+      "Id": 3,
+      "Name": "Pepsi (500ml)",
+      "Description": "Sparkling and Refreshing Beverage",
+      "IsCustomizable": false,
+      "ProductTypeId": 1,
+      "ProductSubTypeId": 3,
+      "Image": "BEV0119_new.jpg"
+    },
+    {
+      "Id": 4,
+      "Name": "Red Velvet Lava Cake",
+      "Description": "A truly indulgent experience with sweet and rich red velvet cake on a creamy cheese flavoured base",
+      "IsCustomizable": false,
+      "ProductTypeId": 1,
+      "ProductSubTypeId": 4,
+      "Image": "CAKE03_new.jpg"
+    }
+  ],
+  "ProductPriceMaster": [
+    {
+      "Id": 1,
+      "ProductId": 1,
+      "SizeId": 1,
+      "CrustId": 1,
+      "Price": 250,
+      "Quntity": 10
+    },
+    {
+      "Id": 2,
+      "ProductId": 1,
+      "SizeId": 2,
+      "CrustId": 2,
+      "Price": 350,
+      "Quntity": 10
+    },
+    {
+      "Id": 3,
+      "ProductId": 1,
+      "SizeId": 3,
+      "CrustId": 3,
+      "Price": 450,
+      "Quntity": 10
+    },
+    {
+      "Id": 4,
+      "ProductId": 2,
+      "SizeId": 1,
+      "CrustId": 1,
+      "Price": 550,
+      "Quntity": 10
+    },
+    {
+      "Id": 5,
+      "ProductId": 2,
+      "SizeId": 2,
+      "CrustId": 2,
+      "Price": 650,
+      "Quntity": 10
+    },
+    {
+      "Id": 6,
+      "ProductId": 2,
+      "SizeId": 3,
+      "CrustId": 3,
+      "Price": 750,
+      "Quntity": 10
+    },
+    {
+      "Id": 7,
+      "ProductId": 3,
+      "SizeId": 0,
+      "CrustId": 0,
+      "Price": 50,
+      "Quntity": 30
+    },
+    {
+      "Id": 7,
+      "ProductId": 4,
+      "SizeId": 0,
+      "CrustId": 0,
+      "Price": 90,
+      "Quntity": 50
+    }
+  ],
+  "OfferMaster": [
+    {
+      "Id": 1,
+      "OfferName": "Meal for 4: Indi Tandoori Paneer & Peppy Paneer Combo",
+      "Description": "Med Indi Tandoori Paneer + Peppy Paneer + 2 Garlic Bread +2 Pepsi",
+      "OfferStartDate": "2022-04-02T00:00:00Z",
+      "OfferEndDate": "2022-04-04T00:00:00Z",
+      "DiscountInPercentage": 20
+    }
+  ],
+  "OfferDetailMaster": [
+    {
+      "OfferId": 1,
+      "ProductId": 1,
+      "Quntity": 1
+    },
+    {
+      "OfferId": 1,
+      "ProductId": 2,
+      "Quntity": 1
+    },
+    {
+      "OfferId": 1,
+      "ProductId": 3,
+      "Quntity": 2
+    }
+  ]
+}
